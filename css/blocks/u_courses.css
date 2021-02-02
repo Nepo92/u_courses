@@ -509,7 +509,7 @@
     flex-direction: row;
   }
   .available-course__main {
-    width: 400px;
+    max-width: 400px;
   }
   .available-course:first-child {
     margin-top: 0;
@@ -572,9 +572,14 @@
     display: none;
   }
   .available-course__start img {
-    display: none;
-    width: 35px;
-    height: 24px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 81px;
+    height: 56px;
   }
   .available-course__title {
     font-weight: 500;
@@ -633,6 +638,9 @@
   }
   .available-course {
     padding: 24px 32px 35px 31px;
+  }
+  .available-course__main {
+    width: 400px;
   }
   .available-course__start img {
     -webkit-transform: translateY(-2px);
