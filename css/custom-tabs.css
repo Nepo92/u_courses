@@ -2,9 +2,3 @@
   border-bottom: 1px solid #cfcfd2;
   margin-top: 13px;
 }
-
-@media (min-width: 375px) {
-  .tabs_underline .tabs__wrapper {
-    margin-top: 35px;
-  }
-}

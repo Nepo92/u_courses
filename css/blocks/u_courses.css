@@ -328,10 +328,15 @@
     -webkit-transform: translate(0px, -2px);
     -ms-transform: translate(0px, -2px);
     transform: translate(0px, -2px);
+    padding-bottom: 0;
+  }
+  .header__box {
+    padding: 0;
   }
   .available-course {
     -webkit-box-shadow: 0px 10px 20px rgba(8, 15, 32, 0.08);
     box-shadow: 0px 10px 20px rgba(8, 15, 32, 0.08);
+    padding: 18px 20px 0px 20px;
   }
   .available-course__start .info-blocks__wrapper .info-block::after {
     -webkit-transform: translateX(6px);
@@ -358,6 +363,9 @@
   }
   .available-course__title {
     margin-top: 4px;
+  }
+  .available-course__main {
+    padding: 0;
   }
   .available-course__type .outline-text__content .outline-text__text {
     padding: 1px 10px;
@@ -419,6 +427,9 @@
     display: none;
   }
   .available-course__image {
+    -webkit-transform: translateY(2px);
+    -ms-transform: translateY(2px);
+    transform: translateY(2px);
     min-height: 145px;
   }
   .available-course:nth-child(3) .available-course__info .info-blocks__wrapper .info-block {
