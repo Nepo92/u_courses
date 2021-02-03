@@ -49,6 +49,7 @@
 .available-course__main {
   display: block;
   width: 400px;
+  padding: 0;
 }
 
 .available-course:nth-child(2n) {
@@ -363,9 +364,6 @@
   }
   .available-course__title {
     margin-top: 4px;
-  }
-  .available-course__main {
-    padding: 0;
   }
   .available-course__type .outline-text__content .outline-text__text {
     padding: 1px 10px;
